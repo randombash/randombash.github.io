@@ -51,7 +51,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "kontakt@wspolniedlaszczecina.pl"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  #rss: true  # remove this line if you don't want to show an RSS link at the bottom
   facebook: wspolniedlaszczecina
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
@@ -89,9 +89,9 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: true
-  linkedin: true
+  linkedin: false
   vk: false
   reddit: false
 
@@ -255,7 +255,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Warsaw"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
